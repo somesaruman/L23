@@ -1,0 +1,25 @@
+#glowny{
+	display: flex;
+	height: 95vh;
+	width: 95vh;
+	margin: auto;
+}
+#jed{
+	display: flex;
+	height: 75%;
+	width: 100%;
+	margin: auto;
+	background-color: #494;
+}
+#dru{
+	display: block;
+	height: 80%;
+	width: 80%;
+	margin: auto;
+	background-color: #277;
+}
+#trze{
+	height: 70%;
+	width: calc(70%*0.75);
+	background-color: #EB2;
+}

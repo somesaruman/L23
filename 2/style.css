@@ -1,0 +1,33 @@
+#glowny{
+	height: 95vh;
+	width: 95vh;
+	margin: auto;
+}
+#zol, #nieb, #czerwo, #fiol, #ziel{
+	width: calc(33.3333% - 1px);
+	height: calc(33.3333% - 1px);
+	border: solid 1px black;
+}
+#zol{
+	float: left;
+	background-color: #FF0;
+}
+#nieb{
+	float: right;
+	background-color: #22D;
+}
+#czerwo{
+	background-color: #D00;
+	margin: auto;
+}
+#fiol{
+	float: left;
+	background-color: #90D;
+}
+#ziel{
+	float: right;
+	background-color: #0D0;
+}
+#czyscioch{
+	clear: both;
+}

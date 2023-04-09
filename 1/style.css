@@ -1,0 +1,20 @@
+#glowny{
+	height: 80vh;
+	width: 80vh;
+	margin:auto;
+    margin-top: 10vh; 
+}
+.Czerwo, .Czarny{
+	height: calc(50% - 0.1px);
+	width: calc(50% - 0.1px);
+	float: left;
+}
+.Czarny + .Czerwo{
+    float: right;
+}
+.Czarny{
+	background-color: #000;
+}
+.Czerwo{
+	background-color: #F00;
+}

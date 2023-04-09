@@ -1,0 +1,30 @@
+#glowny{
+	height: 95vh;
+	width: 95vh;
+	margin: auto;
+}
+#jed, #dru, #trze{
+	position: absolute;
+	height: 25vh;
+	width: 25vh;
+	border: solid 3px black;
+	border-radius: 50%;
+}
+#jed{
+	background-color: #B9D;
+	left: 37.5vh;
+	top: 25vh;
+	z-index: 2;
+}
+#dru{
+	background-color: #C22;
+	left: 42.5vh;
+	top: 30vh;
+	z-index: 1;
+}
+#trze{
+	background-color: #E8B;
+	left: 47.5vh;
+	top: 35vh;
+	z-index: 0;
+}
